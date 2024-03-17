@@ -1,5 +1,5 @@
 Function 1: 
-Your number has been tripled: 48
+Your number has been tripled: 24
 ============================================================
 Function 2: 
 It works!

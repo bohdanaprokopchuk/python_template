@@ -29,7 +29,7 @@ def turns_to_characters(filename):
         filename (str): The name of the file to read from.
 
     Returns:
-        Characters of the file content capitalized in different rows,
+        Characters of the file content capitalized in one line,
         or an error message if the file is not found or the content is not a string.
 
     Raises:
@@ -42,9 +42,7 @@ def turns_to_characters(filename):
             if not isinstance(file_content, str):
                 raise TypeError("Argument must be a string.")
             else:
-                for i in range(0, len(file_content)):
-                    print(file_content[i].upper())
-                return "It works!"
+                return "".join([char.upper() for char in file_content])
     except FileNotFoundError:
         print(f"Error: File is not found.")
 
