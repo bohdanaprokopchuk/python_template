@@ -1,0 +1,25 @@
+Function 1: 
+Your number has been tripled: 48
+============================================================
+Function 2: 
+It works!
+============================================================
+Function 3 (using pandas): 
+       Name               RGB
+0     White  rgb(100,100,100)
+1    Silver     rgb(75,75,75)
+2      Gray     rgb(50,50,50)
+3     Black        rgb(0,0,0)
+4       Red      rgb(100,0,0)
+5    Maroon       rgb(50,0,0)
+6    Yellow    rgb(100,100,0)
+7     Olive      rgb(50,50,0)
+8      Lime      rgb(0,100,0)
+9     Green       rgb(0,50,0)
+10     Aqua    rgb(0,100,100)
+11     Teal      rgb(0,50,50)
+12     Blue      rgb(0,0,100)
+13     Navy       rgb(0,0,50)
+14  Fuchsia    rgb(100,0,100)
+15   Purple      rgb(50,0,50)
+============================================================
